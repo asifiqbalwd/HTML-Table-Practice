@@ -2,6 +2,4 @@
 
 ## Table with HTML
 
-## Live Link:
-
-[HTML Table](https://asifiqbalwd.github.io/HTML-Table-Practice/)
+## Live Link: [HTML Table](https://asifiqbalwd.github.io/HTML-Table-Practice/)
