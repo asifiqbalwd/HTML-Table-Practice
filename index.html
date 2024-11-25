@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid #000000;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+
+        table {
+            width: 800px;
+            height: 500px;
+        }
+
+        th {
+            background-color: #1eff00;
+
+        }
+
+        th:nth-child(even) {
+            background-color: rgb(185, 255, 104);
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(94, 180, 255);
+        }
+
+        td {
+            color: #ff0000;
+            font-weight: 900;
+        }
+
+        tr,
+        td {
+            height: 20px;
+        }
+    </style>
+    <title>HTML Table Project</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td colspan="2">B</td>
+                <td colspan="2">C</td>
+            </tr>
+            <tr>
+                <td rowspan="2"></td>
+                <td rowspan="4" colspan="2"></td>
+                <td rowspan="9" colspan="2"></td>
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td rowspan="10"></td>
+            </tr>
+            <tr>
+                <td colspan="2">E</td>
+            </tr>
+            <tr>
+                <td rowspan="4" colspan="2"></td>
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+                <td>F</td>
+                <td colspan="2">G</td>
+                <td>H</td>
+            </tr>
+            <tr>
+                <td rowspan="3"></td>
+                <td rowspan="3" colspan="2"></td>
+                <td rowspan="3"></td>
+            </tr>
+            <tr>
+
+            </tr>
+            <tr>
+
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
